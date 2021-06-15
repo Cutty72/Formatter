@@ -25,5 +25,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cutty72/Formatter"
+  },
+  "bugs": {
+    "url": "https://github.com/Cutty72/Formatter#readme"
   }
 }
