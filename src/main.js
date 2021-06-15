@@ -20,7 +20,7 @@ async function convertHeaders() {
     });
     rline.on('close', (cmd) => {
         try {
-            console.log(chalk.green(convHeader(headers)))
+            convHeader(headers)
         } catch { console.log(chalk.red.underline("Failed to convert Headers!")); }
     })
 }
