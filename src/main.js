@@ -12,7 +12,7 @@ const rl = readline.createInterface({
 const headers = [];
 
 async function convertHeaders() {
-    rl.setPrompt("Paste Headers here: ")
+    rl.setPrompt("Paste Headers here: \n")
     rl.prompt()
 
     rl.on('line', (header) => {
