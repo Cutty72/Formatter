@@ -1,12 +1,24 @@
 {
   "name": "headerconvert",
   "version": "1.0.0",
-  "description": "",
-  "main": "Header.js",
+  "description": "Converts Headers to JS format",
+  "main": "cli.js",
   "scripts": {
-    "start": "node Header.js",
+    "start": "node cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "Headers",
+    "Header",
+    "Convert",
+    "CLI"
+  ],
+  "author": "IdekDude & Cutty72",
+  "license": "MIT",
+  "bin": {
+    "Header": "cli.js"
+  },
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
 }

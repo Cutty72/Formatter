@@ -1,9 +1,10 @@
+#!/usr/bin/env node
 const program = require('commander');
 const { convertHeaders } = require("./src/main");
 
 async function main() {
     program
-        .name('./Header.js')
+        .name('./cli.js')
         .option('-c, --convert', 'Converts headers to JS format.')
         .option('-h, --help', 'Displays list of commands');
 

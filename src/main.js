@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const { convHeader } = require('./converter')
 
 
-const rline = readline.createInterface({
+const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
@@ -12,13 +12,13 @@ const rline = readline.createInterface({
 const headers = [];
 
 async function convertHeaders() {
-    rline.setPrompt("Paste Headers here: ")
-    rline.prompt()
+    rl.setPrompt("Paste Headers here: ")
+    rl.prompt()
 
-    rline.on('line', (header) => {
+    rl.on('line', (header) => {
         headers.push(header)
     });
-    rline.on('close', (cmd) => {
+    rl.on('close', (cmd) => {
         try {
             convHeader(headers)
         } catch { console.log(chalk.red.underline("Failed to convert Headers!")); }
