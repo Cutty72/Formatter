@@ -2,10 +2,12 @@ const chalk = require('chalk');
 
 
 function convHeader(headers) {
-    let oldHeaders = headers.split(": ")
-    const newHeaders = `${'"' + oldHeaders[0] + '"'}: ${'"' + oldHeaders[1] + '"' + ','}`
+    headers.forEach(oldHeaders => {
+        let OldSplit = oldHeaders.split(": ")
 
-    return newHeaders
+        const NewHeaders = `${'"' + OldSplit[0] + '"'}: ${'"' + OldSplit[1] + '"' + ','}`
+        return NewHeaders
+    })
 }
 
 
