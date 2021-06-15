@@ -52,6 +52,12 @@ After pasting your headers, make sure to press "Ctrl + C", to confirm input.
         "x-flapi-session-id": "16bv3y2hjtw3i1tn9zlm3atidq.fzcexflapipdb618883",
 ```
 
+### Information
+To use this as a command, it must be installed globally.
+```
+npm install -g headerconvert
+```
+
 ### Credits
 CLI - [Cutty72](https://github.com/Cutty72) ([@72_cutty](https://twitter.com/72_cutty))
 <br>
