@@ -61,12 +61,12 @@ npm install -g headerconvert
 ### Credits
 CLI - [Cutty72](https://github.com/Cutty72) ([@72_cutty](https://twitter.com/72_cutty))
 <br>
-Converter - [IdekDude](https://github.com/IdekDude) - group: ([@kronozdev](https://twitter.com/kronozdev))
+Converter - [IdekDude](https://github.com/IdekDude)
 
 ## License
 MIT License
 
-Copyright (c) 2021 Kronoz
+Copyright (c) 2021 Cutty72
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
